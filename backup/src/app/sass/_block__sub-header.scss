@@ -1,0 +1,32 @@
+.block__sub-header {
+    text-align: center;
+    position: relative;
+
+    h2 {
+        margin: 20px 0;
+    }
+
+    p {
+        padding-bottom: 30px;
+    }
+}
+
+.home-sub-header {
+    .block__sub-header {
+        p {
+            border-bottom: 1px solid $light-grey;
+        }
+    }
+}
+
+.bg-lighter-grey {
+    .block__sub-header {
+        background-color: $lighter-grey;
+    }
+
+    p {
+        @media (max-width: $screen-sm) {
+            padding-bottom: 0;
+        }
+    }
+}

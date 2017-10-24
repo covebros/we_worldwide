@@ -1,0 +1,41 @@
+.wrong-logo {
+    padding: 60px 0;
+    position: relative;
+
+    .logo-block {
+        padding: 35px 0;
+    }
+
+    .visual {
+        text-align: center;
+
+        img {
+            width: 100%;
+            max-width: 240px;
+            margin-bottom: 25px;
+        }
+    }
+
+    .wrong {
+        background: url(../assets/images/logo/wrong-logo/cross.svg) no-repeat;
+        background-size: 23px 23px;
+        padding-left: 35px;
+        width: 100%;
+        max-width: 240px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .arrow-bottom {
+        position: absolute;
+        z-index: 1;
+        width: 0;
+        height: 0;
+        border-width: 30px;
+        border-style: solid;
+        border-color: transparent;
+        left: calc(50% - 30px);
+        border-top-color: $white;
+        bottom: -60px;
+    }
+}

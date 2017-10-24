@@ -1,0 +1,229 @@
+.block__photo-img-grid {
+    text-align: center;
+
+    .no-overflow {
+        overflow: hidden;
+    }
+
+    .no-padding {
+        padding: 0;
+    }
+
+    .visual {
+        height: 540px;
+        width: calc(100% + 30px);
+        margin: 0 -15px;
+    }
+
+    .visual-half {
+        height: 270px;
+        width: calc(100% + 30px);
+        margin: 0 -15px;
+
+        &.col-sm-height {
+            @media (max-width: $screen-md - 1px) {
+                height: 400px;
+            }
+
+            @media (max-width: $screen-sm - 1px) {
+                height: 180px;
+            }
+        }
+    }
+
+    .visual, .visual-half {
+        transform: scale(1.5);
+        background-size: cover;
+
+        &.ken-burns {
+            transform: scale(1);
+
+            transition: all 6s cubic-bezier(0.0, 0.0, 0.80, 1.0);
+            transform-origin: center right;
+        }
+
+        &.women-on-bikes {
+            background-image: url(../assets/images/photo-img-grid/women-on-bikes.jpg);
+        }
+
+        &.family {
+            background-image: url(../assets/images/photo-img-grid/family.jpg);
+        }
+
+        &.british {
+            background-image: url(../assets/images/photo-img-grid/man-car.jpg);
+        }
+
+        &.coffee {
+            background-image: url(../assets/images/photo-img-grid/coffee-conversation.jpg);
+        }
+
+        &.grand-kids {
+            background-image: url(../assets/images/photo-img-grid/grand-kids.jpg);
+        }
+
+        &.woman-phone {
+            background-image: url(../assets/images/photo-img-grid/woman-phone.jpg);
+        }
+
+        &.family-in-park {
+            background-image: url(../assets/images/photo-img-grid/family-in-park.jpg);
+        }
+
+        &.couple-street {
+            background-image: url(../assets/images/photo-img-grid/couple-street.jpg);
+        }
+
+        &.woman-tablet {
+            background-image: url(../assets/images/photo-img-grid/woman-tablet.jpg);
+        }
+
+        @media (max-width: $screen-md) {
+            height: 216px;
+        }
+
+        @media (max-width: $screen-sm) {
+            height: 180px;
+        }
+    }
+
+    p {
+        padding: 10%;
+    }
+
+    .col-md-push-v-6 {
+        top: 270px;
+
+        @media (max-width: $screen-md) {
+            top: 0px;
+        }
+    }
+
+    .col-md-pull-v-6 {
+        top: -270px;
+
+        @media (max-width: $screen-md) {
+            top: 0;
+        }
+    }
+
+    .arrow-container {
+        position: relative;
+
+        .paragraph-md {
+            height: 270px;
+        }
+
+        .paragraph-lg {
+            height: 540px;
+        }
+
+        .paragraph-md, .paragraph-lg {
+            width: 100%;
+            display: table;
+
+            p {
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+            @media (max-width: $screen-md) {
+                height: 216px;
+            }
+
+            @media (max-width: $screen-sm) {
+                height: 180px;
+            }
+        }
+    }
+
+    .arrow {
+        position: absolute;
+        z-index: 1;
+        width: 0;
+        height: 0;
+        border-width: 30px;
+        border-style: solid;
+        border-color: transparent;
+    }
+
+    .arrow-up {
+        left: calc(50% - 30px);
+        bottom: 0;
+
+        &.arrow-red {
+            border-bottom-color: $red;
+        }
+
+        &.arrow-grey {
+            border-bottom-color: $grey;
+        }
+
+        &.arrow-light-grey {
+            border-bottom-color: $light-grey;
+        }
+
+        &.arrow-white {
+            border-bottom-color: $white;
+        }
+    }
+
+    .arrow-down {
+        left: calc(50% - 30px);
+
+        &.arrow-red {
+            border-top-color: $red;
+        }
+
+        &.arrow-grey {
+            border-top-color: $grey;
+        }
+
+        &.arrow-light-grey {
+            border-top-color: $light-grey;
+        }
+
+        &.arrow-white {
+            border-top-color: $white;
+        }
+    }
+
+    .arrow-right {
+        right: -60px;
+        top: calc(50% - 30px);
+
+        &.arrow-red {
+            border-left-color: $red;
+        }
+
+        &.arrow-grey {
+            border-left-color: $grey;
+        }
+
+        &.arrow-light-grey {
+            border-left-color: $light-grey;
+        }
+
+        &.arrow-white {
+            border-left-color: $white;
+        }
+    }
+
+    .arrow-left {
+        &.arrow-red {
+            border-right-color: $red;
+        }
+
+        &.arrow-grey {
+            border-right-color: $grey;
+        }
+
+        &.arrow-light-grey {
+            border-right-color: $light-grey;
+        }
+
+        &.arrow-white {
+            border-right-color: $white;
+        }
+    }
+}

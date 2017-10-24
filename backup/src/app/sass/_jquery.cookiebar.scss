@@ -1,0 +1,69 @@
+#cookie-bar {
+    background: $lighter-grey;
+    height: auto;
+    line-height: 24px;
+    text-align: center;
+    padding: 20px;
+
+    .exclamation {
+        margin: 0 50px;
+        width: 30px;
+
+        @media (max-width: $screen-lg) {
+            margin: 0 5px;
+        }
+    }
+
+    .close-btn {
+        width: 23px;
+        margin-left: 50px;
+
+        @media (max-width: $screen-lg) {
+            margin-left: 5px;
+        }
+    }
+
+    a {
+        color: $red;
+        display: inline-block;
+        text-decoration: none;
+        line-height: 16px;
+
+        &:hover {
+            color: $dark-red;
+        }
+    }
+
+    .underlined {
+        border-bottom: 1px solid $red;
+    }
+
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    .cb-enable {
+        margin: 0 5px;
+
+        &:hover {
+            color: $dark-red;
+        }
+    }
+}
+
+#cookie-bar .cb-disable {
+    background: #990000;
+}
+
+#cookie-bar .cb-disable:hover {
+    background: #bb0000;
+}
+
+#cookie-bar .cb-policy {
+    background: #0033bb;
+}
+
+#cookie-bar .cb-policy:hover {
+    background: #0055dd;
+}

@@ -1,0 +1,35 @@
+.paragraph {
+    .block__single-block-text {
+        p {
+            padding: 0;
+        }
+
+        .arrow {
+            &:before {
+                border-bottom: 30px solid $white;
+            }
+
+            &:after {
+                border-bottom: 30px solid $white;
+            }
+        }
+    }
+}
+
+.brand-team {
+    .block__single-block-text {
+        p {
+            padding: 0;
+        }
+
+        .arrow {
+            &:before {
+                border-bottom: 30px solid $lighter-grey;
+            }
+
+            &:after {
+                border-bottom: 30px solid $lighter-grey;
+            }
+        }
+    }
+}

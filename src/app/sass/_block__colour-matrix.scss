@@ -1,0 +1,157 @@
+.block__colour-matrix {
+    text-align: center;
+    padding-bottom: 65px;
+    position: relative;
+
+    @media (max-width: $screen-xs) {
+        padding-bottom: 60px;
+    }
+
+    .center {
+        margin: auto;
+    }
+
+    .matrix {
+        &--mobile {
+            position: relative;
+            padding-left: 15px;
+            overflow: hidden;
+            text-align: left;
+            font-size: 0;
+            &::after {
+                position: absolute;
+                top: 0;
+                right: 0;
+
+                width: 26px;
+                height: 100%;
+
+                content: "";
+
+                background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+                background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+                background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=1);
+            }
+        }
+        .matrix__locked {
+            width: 72px;
+            display: inline-block;
+            overflow: hidden;
+        }
+        .matrix__scroll {
+            width: calc(100% - 72px);
+            display: inline-block;
+            overflow: hidden;
+
+            img {
+                position: relative;
+                left: -72px;
+                margin-right: 15px;
+            }
+        }
+    }
+
+    .matrix-table {
+        max-width: 780px;
+        font-family: 'Open Sans';
+        th, tr, td {
+            border: 1px solid #cccccc;
+        }
+        th {
+            font-size: 10px;
+            font-weight: normal;
+            text-align: center;
+            color: #333333;
+            background-color: #e6e6e6;
+            height: 26px;
+        }
+        tbody {
+            font-size: 12px;
+            td {
+                height: 37px;
+                min-width: 28px;
+            }
+        }
+        td { 
+            &:empty{
+                background-color: #e6e6e6;
+            }
+            &.red {
+                background-color: $red;
+                color: white;
+            }
+            &.red3 {
+                background-color: $red3;
+                color: white;
+            }
+            &.green5 {
+                background-color: $green5;
+                color: white;
+            }
+            &.green6 {
+                background-color: $green6;
+                color: white;
+            }
+            &.grey2 {
+                background-color: $grey2;
+                color: white;
+            }
+            &.grey11 {
+                background-color: $grey11;
+                color: white;
+            }
+            &.grey4 {
+                background-color: $grey4;
+                color: white;
+            }
+            &.grey5 {
+                background-color: $grey5;
+                color: white;
+            }
+            &.grey7 {
+                background-color: $grey7;
+                color: black;
+            }
+            &.grey8 {
+                background-color: $grey8;
+                color: black;
+            }
+            &.grey9 {
+                background-color: $grey9;
+                color: black;
+            }
+            &.white {
+                background-color: white;
+                color: black;
+            }
+        }
+    }
+
+    .arrow {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+
+        &:before, &:after {
+            content: '';
+            position: absolute;
+            bottom: 100%;
+            width: 50%;
+            box-sizing: border-box;
+        }
+
+        &:before {
+            right: 50%;
+            border-bottom: 30px solid $lighter-grey;
+            border-right: 30px solid transparent;
+        }
+
+        &:after {
+            left: 50%;
+            border-bottom: 30px solid $lighter-grey;
+            border-left: 30px solid transparent;
+        }
+    }
+}

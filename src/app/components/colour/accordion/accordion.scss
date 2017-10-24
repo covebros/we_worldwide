@@ -1,0 +1,142 @@
+.block__primary-colours, .block__secondary-colours, .block__additional-colours  {
+    .panel-header {
+        &.red1 {
+            .panel-open {
+                .panel-heading {
+                    background-color: $red1;
+                }
+            }
+        }
+
+        &.grey1 {
+            .panel-open {
+                .panel-heading {
+                    background-color: $grey1;
+                }
+            }
+        }
+
+        &.orange1 {
+            .panel-open {
+                .panel-heading {
+                    background-color: $orange1;
+                }
+            }
+        }
+
+        &.green1 {
+            .panel-open {
+                .panel-heading {
+                    background-color: $green1;
+                }
+            }
+        }
+
+        &.turquoise1 {
+            .panel-open {
+                .panel-heading {
+                    background-color: $turquoise1;
+                }
+            }
+        }
+
+        &.purple1 {
+            .panel-open {
+                .panel-heading {
+                    background-color: $purple1;
+                }
+            }
+        }
+
+        &.brown {
+            .panel-open {
+                .panel-heading {
+                    background-color: $a-brown;
+                }
+            }
+        }
+    }
+
+    .panel-group {
+        margin: 0;
+    }
+
+    .panel-group .panel + .panel {
+        margin-top: 0px;
+    }
+
+    .panel {
+        border-radius: 0;
+        box-shadow: none;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .panel-default {
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        border-bottom: 1px solid $light-grey;
+    }
+
+    .panel-heading {
+        padding: 10px 15px;
+        background-color: $white;
+        border-radius: 0;
+        transition: background 0.5s;
+    }
+
+    .panel-open {
+        .panel-heading {
+            .primary-color, .secondary-color {
+                border-color: $white !important;
+            }
+
+            .panel-title {
+                a {
+                    color: $white;
+                }
+            }
+
+            .glyphicon {
+                color: $white;
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    .panel-title {
+        overflow: hidden;
+
+        a {
+            color: $dark-grey;
+            text-decoration: none;
+            font-size: 20px;
+            line-height: 63px;
+            margin-left: 15px;
+            transition: color 0.5s;
+        }
+    }
+
+    .panel-body {
+        p {
+            color: $grey;
+            font-size: 13px;
+        }
+    }
+
+    .glyphicon {
+        top: 0;
+        line-height: 63px;
+        color: $medium-grey;
+        transition: all 0.1s;
+    }
+
+    .color-variation {
+        padding: 20px 0;
+        overflow: auto;
+
+        .primary-color, .secondary-color {
+            margin-right: 15px;
+        }
+    }
+}

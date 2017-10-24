@@ -1,0 +1,15 @@
+<div class="row video-tile">
+	<div class="col-xs-12 col-sm-6">
+		<div class="row">
+			<h4 ng-transclude="mainTitle"></h4>
+			<p ng-transclude="paragraph"></p>
+		</div>
+	</div>
+	<div class="col-xs-12 col-sm-6 video">
+		<div class="row">
+			<iframe ob-lazytube width="450" height="300"
+				src="{{$ctrl.videoUrl}}" ob-placeholder="{{$ctrl.imagePath}}">
+			</iframe>
+		</div>
+	</div>
+</div>

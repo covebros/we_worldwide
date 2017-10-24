@@ -1,0 +1,31 @@
+.block__terms {
+    .background-red {
+        background: $red;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 60px 0 40px;
+        border-bottom: 1px solid $light-grey;
+
+        @media (max-width: $screen-md) {
+            padding-top: 120px;
+        }
+    }
+
+    h3 {
+        padding-top: 40px;
+    }
+
+    p {
+        padding-top: 30px;
+    }
+
+    .footer {
+        padding-top: 70px;
+    }
+
+    .border-line {
+        border-top: 1px solid $light-grey;
+    }
+}

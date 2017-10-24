@@ -1,0 +1,63 @@
+$white: #ffffff;
+$grey: #666666;
+$dark-grey: #333333;
+$medium-grey: #999999;
+$light-grey: #cccccc;
+$lighter-grey: #e6e6e6;
+$black: #000000;
+$red: #ec0000;
+$dark-red: #b90000;
+
+/* --- primary colors --- */
+// red
+$red1: #E60000;
+$red2: #CC0000;
+$red3: #B30000;
+$red4: #990000;
+$red5: #800000;
+
+// grey
+$grey1: #232323;
+$grey2: #333333;
+$grey3: #4C4C4C;
+$grey4: #666666;
+$grey5: #808080;
+$grey6: #999999;
+$grey7: #B3B3B3;
+$grey8: #CCCCCC;
+$grey9: #E6E6E6;
+
+// orange
+$orange1: #E59D27;
+$orange2: #EDBA68;
+$orange3: #F5D8A9;
+$orange4: #FBF0DF;
+
+// green
+$green1: #ABC111;
+$green2: #C4D458;
+$green3: #DDE6A0;
+$green4: #F3F6DB;
+
+// turquoise
+$turquoise1: #1BB3BC;
+$turquoise2: #5FCAD0;
+$turquoise3: #A4E1E4;
+$turquoise4: #DDF4F5;
+
+// purple
+$purple1: #9E3667;
+$purple2: #BB7295;
+$purple3: #D8AFC2;
+$purple4: #F0E1E8;
+
+/* --- primary colors --- */
+
+/* Media Queries vars */
+
+$screen-lg: 1200px;
+$screen-md: 992px;
+$screen-sm: 768px;
+$screen-retina: 640px;
+$screen-xs: 480px;
+$screen-sm-min: $screen-xs + 1;

@@ -1,0 +1,124 @@
+.block__primary-colours {
+    margin-top: 23px;
+    text-align: center;
+
+    @media (max-width: $screen-sm) {
+        margin-top: 0;
+    }
+
+    .colours {
+        opacity: 0;
+    }
+
+    .ellipse {
+        padding-top: 30px;
+
+        .col-half-offset {
+            margin-left: 4.16667%;
+        }
+
+        .values {
+            margin-top: 30px;
+
+            p {
+                font-size: 13px;
+                line-height: 1.539;
+            }
+        }
+    }
+
+    .primary-color {
+        width: 96px;
+        height: 96px;
+        margin: 0 auto;
+        border-radius: 50px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: transparent;
+        transition: all .2s ease-in-out;
+        
+        @media (max-width: $screen-sm) {
+            width: 59px;
+            height: 59px;
+        }
+
+        &.red1 {
+            background-color: $red1;
+            border-color: $red1;
+        }
+
+        &.red2 {
+            background-color: $red2;
+            border-color: $red2;
+        }
+
+        &.red3 {
+            background-color: $red3;
+            border-color: $red3;
+        }
+
+        &.red4 {
+            background-color: $red4;
+            border-color: $red4;
+        }
+
+        &.red5 {
+            background-color: $red5;
+            border-color: $red5;
+        }
+
+        &.grey1 {
+            background-color: $grey1;
+            border-color: $grey1;
+        }
+
+        &.grey2 {
+            background-color: $grey2;
+            border-color: $grey2;
+        }
+
+        &.grey3 {
+            background-color: $grey3;
+            border-color: $grey3;
+        }
+
+        &.grey4 {
+            background-color: $grey4;
+            border-color: $grey4;
+        }
+
+        &.grey5 {
+            background-color: $grey5;
+            border-color: $grey5;
+        }
+
+        &.grey6 {
+            background-color: $grey6;
+            border-color: $grey6;
+        }
+
+        &.grey7 {
+            background-color: $grey7;
+            border-color: $grey7;
+        }
+
+        &.grey8 {
+            background-color: $grey8;
+            border-color: $grey8;
+        }
+
+        &.grey9 {
+            background-color: $grey9;
+            border-color: $grey9;
+        }
+        &.grey10 {
+            background-color: $grey10;
+            border-color: $grey10;
+        }
+    }
+
+    hr {
+        border-color: $light-grey;
+        margin-top: 50px;
+    }
+}

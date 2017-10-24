@@ -1,0 +1,53 @@
+.placement-on-backgrounds {
+    background: $grey;
+    color: $white;
+    position: relative;
+
+    .arrow-top {
+        border-top-color: $white;
+        top: 0px;
+    }
+
+    .arrow-bottom {
+        border-top-color: $grey;
+        bottom: -60px;
+    }
+
+    .single-title-block {
+        h1 {
+            color: $white;
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    h4 {
+        color: $white;
+        margin-bottom: 5px;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    p {
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+
+    .tick {
+        background: url(../assets/images/placement-on-background/tick.svg) no-repeat;
+        padding-left: 50px;
+        background-size: 33px 27px;
+
+        @media (max-width: $screen-sm) {
+            padding-left: 35px;
+            background-size: 25px 20px;
+        }
+    }
+}
