@@ -10,6 +10,7 @@
         }
         iframe {
             height: 1200px;
+            border: none;
         }
     }
 }
@@ -72,7 +73,7 @@
     background-color: $black;
     .navigation {
         background-color: $black;
-        padding: 0 65px;
+        padding: 0 60px;
         #menu {
             border-bottom: 2px solid $we-grey;
             padding-bottom: 20px;
@@ -196,8 +197,6 @@ header {
     height: 62px;
     img {
         @media (max-width: $screen-md) {
-            height: 40px;
-            padding-left: 10px;
         }
     }
     a {
@@ -364,7 +363,7 @@ nav {
         width: 60px;
         height: 56px;
         position: absolute;
-        right: 0;
+        right: -10px;
         top: 0;
         cursor: pointer;
         z-index: 12399994;
