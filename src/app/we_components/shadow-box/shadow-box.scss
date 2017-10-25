@@ -1,0 +1,38 @@
+.block__shadow_box {
+	background-color: $black;
+	text-align: center;
+	padding-bottom: 40px;
+
+	.box {
+		background-color: $dark-grey;
+		padding: 20px 15px;
+		opacity: 0.8;
+	}
+
+	.box-content-title {
+		position: relative;
+		top: 0;
+		z-index: 10;
+	}
+
+	.box-content-steps {
+		position: relative;
+		top: 0;
+		z-index: 20;
+	}
+
+	h3 {
+		font-size: 20px;
+		color: $we-green;
+		margin-bottom: 20px;
+	}
+
+	ul {
+		list-style: none;
+		li {
+		color: $white;
+		font-size: 20px;
+		line-height: 1.5;
+		}	
+	}
+}

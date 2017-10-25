@@ -24,9 +24,9 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
 
     .state('brands', {
       url: '/brands',
-      templateUrl: 'app/pages/colour/colour.html',
-      controller: 'colourController',
-      controllerAs: 'colour'
+      templateUrl: 'app/pages/brands/brands.html',
+      controller: 'brandsController',
+      controllerAs: 'brands'
     })
 
     .state('momentum', {

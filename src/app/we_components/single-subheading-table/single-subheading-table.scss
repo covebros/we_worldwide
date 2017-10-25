@@ -1,0 +1,19 @@
+.block__single-subheading-table {
+	background-color: $black;
+	text-align: center;
+	padding-bottom: 50px;
+
+	h3 {
+		text-transform: uppercase;
+		color: $white;
+		margin-bottom: 50px;
+	}
+
+	img	{
+		width: 100%;
+	}
+
+	.subheading {
+		padding: 0 20px;
+	}
+}

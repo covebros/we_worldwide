@@ -1,0 +1,45 @@
+.block__single-heading {
+	text-align: center;
+    position: relative;
+    background-color: $black;
+
+    h2 {
+        font-size: 35px;
+        line-height: 1;
+        margin: 20px 0 0 0;
+        color: $we-green;
+    }
+
+    p {
+        color: $white;
+        font-size: 20px;
+        line-height: 28px;
+    }
+    img {
+        width: 100%;
+        max-width: 530px;
+    }
+}
+
+.first-sub-header {
+    .subheading {
+        margin: 80px 0;
+        padding: 0 30px;
+        @media (max-width: $screen-md) {
+            margin: 30px 0;
+        }
+    }
+}
+
+.second-sub-header {
+    .subheading {
+        margin-bottom: 60px;
+        padding: 0 30px;
+    }
+
+    p {
+        @media (max-width: $screen-sm) {
+            padding-bottom: 0;
+        }
+    }
+}

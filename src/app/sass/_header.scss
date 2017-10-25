@@ -67,6 +67,7 @@
 .main-nav {
     padding-top: 35px;
     width: 100%;
+    height: 120px;
     top: 0;
     z-index: 3;
     margin: 0;
@@ -74,6 +75,9 @@
     .navigation {
         background-color: $black;
         padding: 0 60px;
+        @media (max-width: $screen-sm) {
+            padding: 0 40px;
+        }
         #menu {
             border-bottom: 2px solid $we-grey;
             padding-bottom: 20px;

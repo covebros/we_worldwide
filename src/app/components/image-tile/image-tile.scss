@@ -15,6 +15,11 @@
 
     .green-arrow {
         width: 35px;
+        @media (max-width: $screen-sm) {
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%); 
+        }
     }
 
     .number {
@@ -24,14 +29,18 @@
 
     .subtitle, .title {
         position: relative;
-        padding: 100px 23% 0 23%;
+        padding: 100px 20% 0 20%;
         font-size: 30px;
         line-height: 36px;
         vertical-align: middle;
         color: #666666;
         font-weight: 30;
         text-transform: uppercase;
-        min-height: 320px;
+        min-height: 330px;
+        @media (max-width: $screen-x-lg) {
+            padding: 100px 15% 0 15%;
+            min-height: 360px;
+        }
         @media (max-width: $screen-lg) {
             padding: 100px 15% 0 15%;
             min-height: 380px;
@@ -40,8 +49,12 @@
             padding: 100px 5% 0 5%;
         }
         @media (max-width: $screen-sm) {
-            padding: 0 30px;
+            padding: 50px 30px;
             text-align: left;
+            min-height: 0;
+            display: inline-block;
+            float: left;
+            max-width: 500px;
         }
     }
 

@@ -1,0 +1,12 @@
+.block_footer{
+	background-color: red;
+	text-align: right;
+	p {
+		color: $black;
+		padding: 10px 50px 10px 0;
+		font-size: 10px;
+		@media(max-width: $screen-xs) {
+			padding: 5px 0 5px 0;
+		}
+	}
+}
