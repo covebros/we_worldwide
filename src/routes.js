@@ -31,9 +31,9 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
 
     .state('momentum', {
       url: '/momentum',
-      templateUrl: 'app/pages/typography/typography.html',
-      controller: 'typographyController',
-      controllerAs: 'typography'
+      templateUrl: 'app/pages/momentum/momentum.html',
+      controller: 'momentumController',
+      controllerAs: 'momentum'
     })
 
     .state('stories', {
