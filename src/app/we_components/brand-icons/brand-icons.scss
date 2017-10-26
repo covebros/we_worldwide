@@ -1,0 +1,16 @@
+.block__brand_icons {
+	text-align: center;
+	margin-top: 55px;
+	@media(max-width: $screen-sm) {
+		margin-top: 40px; 
+	}
+
+	.icons-container {
+		img {
+			padding: 30px 0;
+			@media(max-width: $screen-sm) {
+				padding: 25px 0;
+			}
+		}
+	}
+}

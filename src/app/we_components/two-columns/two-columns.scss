@@ -1,0 +1,40 @@
+.block__two_columns {
+	text-align: center;
+	.columns-container {
+		margin: 40px 0 60px 0;
+		@media(max-width: $screen-md) {
+			margin: 30px 0 30px;
+		}
+
+		h3 {
+			font-size: 20px;
+			color: $we_green;
+			line-height: 1.4;
+			margin-bottom: 25px;
+		}
+
+		h4 {
+			font-size: 20px;
+			line-height: 1.4;
+			color: $white;
+			padding: 0 15px;
+
+		}
+
+		p {
+			font-size: 20px;
+			line-height: 1.4;
+			margin-bottom: 20px;
+			padding: 0 15px;
+		}
+
+		.column {
+			margin-bottom: 30px; 
+		}
+
+		.column-bg {
+			background-color: $dark-grey;
+			padding: 20px 0;
+		}
+	}
+}

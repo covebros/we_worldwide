@@ -17,9 +17,9 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
 
     .state('about', {
       url: '/about',
-      templateUrl: 'app/pages/logo/logo.html',
-      controller: 'logoController',
-      controllerAs: 'logo'
+      templateUrl: 'app/pages/about/about.html',
+      controller: 'aboutController',
+      controllerAs: 'about'
     })
 
     .state('brands', {
