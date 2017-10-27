@@ -1,4 +1,72 @@
 .block__brand_section {
 	text-align: center;
-	margin: 50px 0;
+	margin: 100px 0;
+	background-color: #0d0d0d;
+	padding: 85px 15px;
+
+	.header-images {
+		margin-bottom: 30px;
+
+		.image-one, .image-two {
+			display: inline-block;
+
+			img {
+				width: 100%;
+			}
+		}
+
+		.image-one {
+			padding-right: 25px;
+
+			@media(max-width: $screen-md) {
+				padding: 0 0 10px 0;
+			}
+		}
+		.mobile-only {
+			display: none;
+			@media(max-width: $screen-md) {
+				display: block;
+			}
+		}
+	}
+
+	.graphic-header {
+		margin-bottom: 40px; 
+	}
+
+	.bold-text {
+		font-weight: bold;
+	}
+
+	.brand-icon {
+		padding: 40px 0px;
+		background-color: #313131;
+		min-height: 220px;
+
+		img {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translateX(-50%) translateY(-50%);
+		}
+	}
+
+	.table-content {
+		background-color: $table-green;
+		text-align: left;
+		min-height: 220px;
+		height: 100%;
+
+		.content {
+			padding: 20px 10px;
+			position: relative;
+			vertical-align: center;
+		}
+	}
+	.equal {
+		@media(min-width: $screen-md) {
+			display: flex;
+	  		flex-wrap: wrap;
+		}
+	}
 }
