@@ -38,16 +38,16 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
 
     .state('stories', {
       url: '/stories',
-      templateUrl: 'app/pages/photography/photography.html',
-      controller: 'photographyController',
-      controllerAs: 'photography'
+      templateUrl: 'app/pages/stories/stories.html',
+      controller: 'storiesController',
+      controllerAs: 'stories'
     })
 
     .state('motion', {
       url: '/motion',
-      templateUrl: 'app/pages/iconography/iconography.html',
-      controller: 'iconographyController',
-      controllerAs: 'iconography'
+      templateUrl: 'app/pages/motion/motion.html',
+      controller: 'motionController',
+      controllerAs: 'motion'
     })
 
     .state('language', {
