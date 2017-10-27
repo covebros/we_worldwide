@@ -1,9 +1,19 @@
 .block__three-columns {
 	text-align: center;
 	margin-top: 100px;
-	padding: 40px;
 
 	.column-bg {
-		background-color: $grey;
+		background-color: $we-grey;
+		padding: 20px;
+		h3 {
+			color: $we-green;
+		}
+	}
+
+	.equal {
+		@media(min-width: $screen-md) {
+			display: flex;
+	  		flex-wrap: wrap;
+		}
 	}
 }
