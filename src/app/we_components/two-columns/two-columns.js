@@ -5,7 +5,7 @@ angular
   controller: twoColumns
 });
 
-  /** @ngInject */
+  /** @ngInject **/
 
 function twoColumns($scope, $timeout) {
 }
