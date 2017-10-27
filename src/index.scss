@@ -55,6 +55,7 @@
 @import "app/components/video-tile/video-tile";
 @import "app/components/image-tile/image-tile";
 
+/* Components Start */
 
 @import "app/we_components/shadow-box/shadow-box";
 @import "app/we_components/single-image/single-image";
@@ -65,8 +66,14 @@
 @import "app/we_components/brand-section/brand-section";
 @import "app/we_components/footer/footer";
 
+/* Components End */
+
+/* Pages Start */
 
 @import "app/pages/momentum/momentum";
+@import "app/pages/about/about";
+
+/* Pages end */
 
 /* Components */
 

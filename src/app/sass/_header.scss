@@ -65,7 +65,7 @@
 }
 
 .main-nav {
-    padding-top: 35px;
+    padding-top: 50px;
     width: 100%;
     height: 120px;
     top: 0;
@@ -248,12 +248,12 @@ nav {
 
 #menu > ul > li {
     float: left;
-    padding: 20px 35px;
+    padding: 15px 35px;
     &:last-child {
         padding-right: 0;
     }
     @media (max-width: $screen-lg) {
-        padding: 20px 15px;
+        padding: 15px 15px;
     }
     @media (max-width: $screen-md) {
         padding: 25px 10px;
