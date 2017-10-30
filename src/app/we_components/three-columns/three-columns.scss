@@ -10,9 +10,14 @@
 		background-color: $we-grey;
 		padding: 25px 15px;
 
-		@media(max-width: $screen-md) {
-			margin-bottom: 20px;
+		@media(min-width: $screen-sm) {
+			min-height: 100%;
 		}
+
+		@media(max-width: $screen-sm) {
+			margin-bottom: 20px; 
+		}
+
 
 		h3 {
 			color: $we-green;
@@ -21,7 +26,7 @@
 	}
 
 	.equal {
-		@media(min-width: $screen-md) {
+		@media(min-width: $screen-sm) {
 			display: flex;
 	  		flex-wrap: wrap;
 		}
