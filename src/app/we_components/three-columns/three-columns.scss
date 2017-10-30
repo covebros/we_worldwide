@@ -2,9 +2,18 @@
 	text-align: center;
 	margin-top: 100px;
 
+	@media(max-width: $screen-md) {
+		margin-top: 50px; 
+	}
+
 	.column-bg {
 		background-color: $we-grey;
-		padding: 20px;
+		padding: 20px 15px;
+
+		@media(max-width: $screen-md) {
+			margin-bottom: 20px;
+		}
+
 		h3 {
 			color: $we-green;
 		}
