@@ -18,6 +18,8 @@
 // bower:scss
 // endbowe
 
+/* General Styling Start */
+
 @import "app/sass/_variables";
 @import "app/sass/_scaffolding";
 @import "app/sass/_fonts";
@@ -74,7 +76,7 @@
 @import "app/components/colour/accordion/accordion";
 
 /* Pages Start */
-
+@import "app/pages/home/home";
 @import "app/pages/momentum/momentum";
 @import "app/pages/about/about";
 

@@ -50,6 +50,13 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       controllerAs: 'motion'
     })
 
+    .state('team', {
+      url: '/team',
+      templateUrl: 'app/pages/team/team.html',
+      controller: 'teamController',
+      controllerAs: 'team'
+    })
+
     .state('language', {
       url: '/language',
       templateUrl: 'app/pages/language/language.html',

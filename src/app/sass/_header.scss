@@ -1,21 +1,3 @@
-.block__video_tile {
-        header {
-            background-color: $black;
-            @media (max-width: $screen-md) {
-                min-height: 600px;
-            }
-            @media (max-width: $screen-xs) {
-            }
-            iframe {
-            position: fixed;
-            object-fit: cover;
-            height: 100vh;
-            width: 100vw;
-            border: none
-        }
-    }
-}
-
 .logo-image {
     width: 100%;
     top: 0;
@@ -66,7 +48,6 @@
 }
 
 .main-nav {
-    position: fixed;
     width: 100%;
     height: 120px;
     top: 0;
