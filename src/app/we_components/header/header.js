@@ -1,5 +1,5 @@
 angular
   .module('app')
   .component('brandHeader', {
-    templateUrl: 'app/components/header/header.html'
+    templateUrl: 'app/we_components/header/header.html'
   });

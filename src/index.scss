@@ -16,12 +16,31 @@
 /* Do not remove the comments below. It's the markers used by wiredep to inject
   sass dependencies when defined in the bower.json of your dependencies */
 // bower:scss
-// endbower
+// endbowe
 
 @import "app/sass/_variables";
 @import "app/sass/_scaffolding";
+@import "app/sass/_fonts";
+@import "app/sass/_typography";
 @import "app/sass/_header";
 @import "app/sass/_footer";
+
+/* Components Start */
+
+@import "app/we_components/shadow-box/shadow-box";
+@import "app/we_components/single-image/single-image";
+@import "app/we_components/single-subheading/single-subheading";
+@import "app/we_components/single-subheading-table/single-subheading-table";
+@import "app/we_components/two-columns/two-columns";
+@import "app/we_components/three-columns/three-columns";
+@import "app/we_components/brand-icons/brand-icons";
+@import "app/we_components/brand-section/brand-section";
+@import "app/we_components/image-tile/image-tile";
+@import "app/we_components/video-tile/video-tile";
+@import "app/we_components/footer/footer";
+
+/* Components End */
+
 @import "app/sass/_block__brand-aproval";
 @import "app/sass/_block__brand-priciples";
 @import "app/sass/_block__sub-header";
@@ -52,22 +71,6 @@
 @import "app/components/language/how-to-write-personally/how-to-write-personally";
 @import "app/components/language/how-to-write-fairly/how-to-write-fairly";
 @import "app/components/colour/accordion/accordion";
-@import "app/components/video-tile/video-tile";
-@import "app/components/image-tile/image-tile";
-
-/* Components Start */
-
-@import "app/we_components/shadow-box/shadow-box";
-@import "app/we_components/single-image/single-image";
-@import "app/we_components/single-subheading/single-subheading";
-@import "app/we_components/single-subheading-table/single-subheading-table";
-@import "app/we_components/two-columns/two-columns";
-@import "app/we_components/three-columns/three-columns";
-@import "app/we_components/brand-icons/brand-icons";
-@import "app/we_components/brand-section/brand-section";
-@import "app/we_components/footer/footer";
-
-/* Components End */
 
 /* Pages Start */
 

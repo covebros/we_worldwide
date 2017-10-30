@@ -1,6 +1,6 @@
 angular.module('app')
 	.component('imageTile', {
-		templateUrl: 'app/components/image-tile/image-tile.html',
+		templateUrl: 'app/we_components/image-tile/image-tile.html',
 		bindings: {
 			title: '@',
 			subtitle: '@',

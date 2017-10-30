@@ -1,0 +1,48 @@
+<div class="main-nav">
+	<div class="col-xs-12 navigation">
+		<nav id="menu" ng-class="{'is-open': IsNavOpen, '': !IsNavOpen}">
+		    <div class="logo"><a ui-sref="home"><img src="assets/images/we_worldwide/we-logo.png" alt="We Worldwide"></a></div>
+		    <div id="head-mobile"></div>
+		    <div ng-click="mobileMenu()" class="mobile-menu-button" ng-class="{'is-open': IsNavOpen, '': !IsNavOpen}"></div>
+		    <ul class="sub-menu">
+				<li ui-sref-active="active" class="active"><a ui-sref='home'>Home</a></li>
+				<li ui-sref-active="active" class="active"><a ui-sref='about'>About</a></li>
+				<li ui-sref-active="active" class="active"><a ui-sref='brands'>Brands in Motion</a></li>
+				<li ui-sref-active="active" class="active"><a ui-sref='momentum'>Momentum</a></li>
+				<li ui-sref-active="active" class="active"><a ui-sref='stories'>Stories in Motion</a></li>
+				<li ui-sref-active="active" class="active"><a ui-sref='motion'>Motion Lab</a></li>
+		    </ul>
+		</nav>
+		<main class="o-content">
+		    <div class="o-container">
+		      
+<!-- 		      <div class="c-buttons">
+		        <button id="c-button--slide-left" class="c-button">Slide Left</button>
+		        <button id="c-button--slide-right" class="c-button">Slide Right</button>
+		        <button id="c-button--push-left" class="c-button">Push Left</button>
+		        <button id="c-button--push-right" class="c-button">Push Right</button>
+		        <button id="c-button--slide-top" class="c-button">Slide Top</button>
+		        <button id="c-button--slide-bottom" class="c-button">Slide Bottom</button>
+		        <button id="c-button--push-top" class="c-button">Push Top</button>
+		        <button id="c-button--push-bottom" class="c-button">Push Bottom</button>
+		      </div>
+		      
+		      <div id="github-icons"></div> -->
+
+		    </div><!-- /o-container -->
+		</main><!-- /o-content -->
+		<nav id="c-menu--slide-right" class="c-menu c-menu--slide-right">
+			<button ng-click="closeMobileMenu()" class="c-menu__close active">Close Menu &rarr;</button>
+				<ul class="c-menu__items">
+					<li ui-sref-active="active" class="c-menu__item active"><a ui-sref='home' class="c-menu__link">Home</a><img src="assets/images/we_worldwide/menu-spacer.png"></li>
+
+					<li ui-sref-active="active" class="c-menu__item active"><a ui-sref='about' class="c-menu__link">About</a><img src="assets/images/we_worldwide/menu-spacer.png"></li>
+					<li ui-sref-active="active" class="c-menu__item active"><a ui-sref='brands' class="c-menu__link">Brands in Motion</a><img src="assets/images/we_worldwide/menu-spacer.png"></li>
+					<li ui-sref-active="active" class="c-menu__item active"><a ui-sref='momentum' class="c-menu__link">Momentum</a><img src="assets/images/we_worldwide/menu-spacer.png"></li>
+					<li ui-sref-active="active" class="c-menu__item active"><a ui-sref='stories' class="c-menu__link">Stories in Motion</a><img src="assets/images/we_worldwide/menu-spacer.png"></li>
+					<li ui-sref-active="active" class="c-menu__item active"><a ui-sref='motion' class="c-menu__link">Motion Lab</a></li>
+				</ul>
+		</nav><!-- /c-menu slide-right -->
+		<div id="c-mask" class="c-mask"></div><!-- /c-mask -->
+	</div>
+</div>

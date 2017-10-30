@@ -1,6 +1,6 @@
 angular.module('app')
 	.component('videoTile', {
-		templateUrl: 'app/components/video-tile/video-tile.html',
+		templateUrl: 'app/we_components/video-tile/video-tile.html',
 		bindings: {
 			videoId: '@',
 			placeholder: '@'

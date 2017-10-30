@@ -9,7 +9,7 @@
   function brandNavigation() {
     var directive = {
       restrict: 'E',
-      templateUrl: 'app/components/navigation/navigation.html',
+      templateUrl: 'app/we_components/navigation/navigation.html',
       controller: menuNavigation,
       controllerAs: 'navigation',
       bindToController: true
@@ -17,7 +17,7 @@
     return directive;
   }
 
-  function menuNavigation($scope, $timeout, $state) {
+  function menuNavigation($scope, $timeout, $window, $state) {
     $scope.IsNavOpen = false;
 
     var santanderCookie = Cookies.get('Santander Brand Guidelines');
@@ -26,15 +26,24 @@
     }
 
     $scope.mobileMenu = function () {
-      $scope.IsNavOpen = !$scope.IsNavOpen;
       angular.element('.mobile-menu-button').toggleClass('menu-opened');
-      angular.element('.sub-menu').slideToggle();
+      angular.element('#c-menu--slide-right').toggleClass('is-active');
+      angular.element('#c-mask').toggleClass('is-active');
     };
+
+    $scope.closeMobileMenu = function () {
+      angular.element('#c-menu--slide-right').removeClass('is-active');
+      angular.element('#c-mask').removeClass('is-active');
+      angular.element('.mobile-menu-button').removeClass('menu-opened');
+    }
 
     angular.element(window).resize(function () {
       if (angular.element(window).width() > 992) {
         angular.element('.sub-menu').removeAttr('style');
         angular.element('.mobile-menu-button').removeClass('menu-opened');
+        angular.element('#c-menu--slide-right').removeClass('is-active');
+        angular.element('#c-mask').removeClass('is-active');
+
       }
     });
 
