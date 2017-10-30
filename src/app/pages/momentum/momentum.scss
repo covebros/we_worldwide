@@ -1,10 +1,19 @@
-.momentum-sub-header-reset {
-	.block__single-heading {
-		.subheading {
-			margin: 115px 0 20px 0;
-			@media (max-width: $screen-md) {
-	            margin: 30px 0 20px 0;
-	        }
+.block__motion-momentum {
+	background-image: url(assets/images/we_worldwide/momentum-bg-image.png);
+	background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+
+	.momentum-sub-header-reset {
+		.block__single-heading {
+			.subheading {
+				margin: 115px 0 20px 0;
+				@media (max-width: $screen-md) {
+		            margin: 30px 0 20px 0;
+		        }
+			}
 		}
 	}
 }
