@@ -1,9 +1,5 @@
 .block__brand_section {
 	text-align: center;
-	padding: 85px 15px;
-	@media(max-width: $screen-sm) {
-		padding: 50px 15px;
-	}
 
 	.header-images {
 		margin-bottom: 30px;
@@ -70,9 +66,9 @@
 			vertical-align: center;
 
 			h4 {
-				font-weight: bold;
 				font-style: italic;
-				margin-bottom: 20px;
+				margin-bottom: 5px;
+				color: $white;
 			}
 		}
 	}

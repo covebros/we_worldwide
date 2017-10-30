@@ -1,22 +1,7 @@
-.block__brand-sections {
-	margin-top: 100px;
-	@media(max-width: $screen-sm) {
-		margin-top: 50px; 
-	}
-	.section-one-bg {
-		.block__brand_section {
-			background-color: #0d0d0d;
-		}
-	}
-
-	.section-two-bg {
-		.block__brand_section {
-			background-color: #121212;
-		}
-	}
-	.section-three-bg {
-		.block__brand_section {
-			background-color: #171717;
+.block__about-page {
+	.subheading-two-reset {
+		.subheading {
+			margin-top: 30px; 
 		}
 	}
 }

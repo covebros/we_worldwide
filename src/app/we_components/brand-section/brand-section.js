@@ -5,10 +5,12 @@ angular
     transclude: {
     	imageTitleOne: 'imageTitleOne', 
     	imageTitleTwo: 'imageTitleTwo', 
-		paragraph: 'brandSectionParagraph',
-		tableIcon: 'tableIcon',
-		tableTitle: 'tableTitle',
-		tableText: 'tableText'
+  		paragraph: 'brandSectionParagraph',
+  		tableIcon: 'tableIcon',
+  		tableTitleOne: 'tableTitleOne',
+  		tableTextOne: 'tableTextOne',
+      tableTitleTwo: 'tableTitleTwo',
+      tableTextTwo: 'tableTextTwo'
     },
     controller: brandSection
   });

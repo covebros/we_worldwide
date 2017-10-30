@@ -3,11 +3,11 @@
 		<div class="row">
 			<div class="col-xs-12 graphic-header">
 				<div class="header-images">
-					<div ng-transclude="imageTitleOne" class="image-one"></div>
+					<div ng-transclude="imageTitleOne" class="image-one" ng-if="true"></div>
 					<br class="mobile-only">
 					<div ng-transclude="imageTitleTwo" class="image-two" ng-if="true"></div>
 				</div>
-				<p ng-transclude="paragraph" class=""></p>
+				<p ng-transclude="paragraph" ng-if="true"></p>
 			</div>
 		</div>
 		<div class="row">
@@ -18,8 +18,11 @@
 					</div>
 					<div class="col-md-9 table-content">
 						<div class="content">
-							<h4 ng-transclude="tableTitle"></h4>
-							<p ng-transclude="tableText"></p>
+							<h4 ng-transclude="tableTitleOne"></h4>
+							<p ng-transclude="tableTextOne"></p>
+							<br>
+							<h4 ng-transclude="tableTitleTwo"></h4>
+							<p ng-transclude="tableTextTwo"></p>
 						</div>
 					</div>
 				</div>
