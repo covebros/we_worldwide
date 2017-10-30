@@ -43,6 +43,13 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       controllerAs: 'stories'
     })
 
+    .state('progress', {
+      url: '/progress',
+      templateUrl: 'app/pages/progress/progress.html',
+      controller: 'progressController',
+      controllerAs: 'progress'
+    })
+
     .state('motion', {
       url: '/motion',
       templateUrl: 'app/pages/motion/motion.html',
