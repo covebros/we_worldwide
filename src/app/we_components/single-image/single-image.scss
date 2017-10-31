@@ -4,8 +4,11 @@
 
 	img {
 		width: 100%;
-		margin-bottom: 50px;
-		padding: 0 5px;
+		margin: 70px 0 0 0;
+		padding: 0 15px;
+		@media(max-width: $screen-sm) {
+			margin-top: 50px; 
+		}
 	}
 
 	p {
