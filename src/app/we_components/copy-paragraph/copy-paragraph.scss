@@ -9,10 +9,6 @@
             color: $white;
             font-size: 20px;
             line-height: 28px;
-            padding-bottom: 70px;
-            @media(max-width: $screen-sm) {
-                padding-bottom: 20px;
-            }
         }
     }
 }
