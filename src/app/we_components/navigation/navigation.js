@@ -37,13 +37,21 @@
       angular.element('.mobile-menu-button').removeClass('menu-opened');
     }
 
+    angular.element(document).mouseup(function(e) {
+      var menu = angular.element('.c-menu');
+      if(!menu.is(e.target) && menu.has(e.target).length === 0) {
+        angular.element('#c-menu--slide-right').removeClass('is-active');
+        angular.element('#c-mask').removeClass('is-active');
+        angular.element('.mobile-menu-button').removeClass('menu-opened');
+      }
+    })
+
     angular.element(window).resize(function () {
       if (angular.element(window).width() > 992) {
         angular.element('.sub-menu').removeAttr('style');
         angular.element('.mobile-menu-button').removeClass('menu-opened');
         angular.element('#c-menu--slide-right').removeClass('is-active');
         angular.element('#c-mask').removeClass('is-active');
-
       }
     });
 

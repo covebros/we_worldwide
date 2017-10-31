@@ -22,6 +22,13 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       controllerAs: 'about'
     })
 
+    .state('progress', {
+      url: '/progress',
+      templateUrl: 'app/pages/progress/progress.html',
+      controller: 'progressController',
+      controllerAs: 'progress'
+    })
+
     .state('brands', {
       url: '/brands',
       templateUrl: 'app/pages/brands/brands.html',
@@ -43,18 +50,18 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       controllerAs: 'stories'
     })
 
-    .state('progress', {
-      url: '/progress',
-      templateUrl: 'app/pages/progress/progress.html',
-      controller: 'progressController',
-      controllerAs: 'progress'
-    })
-
     .state('motion', {
       url: '/motion',
       templateUrl: 'app/pages/motion/motion.html',
       controller: 'motionController',
       controllerAs: 'motion'
+    })
+
+    .state('how', {
+      url: '/how',
+      templateUrl: 'app/pages/how/how.html',
+      controller: 'howController',
+      controllerAs: 'how'
     })
 
     .state('team', {
