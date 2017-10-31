@@ -1,0 +1,18 @@
+.block__copy-paragraph {
+    text-align: center;
+    padding-bottom: 30px;
+
+    .subheading {
+        padding: 0 30px;
+
+        p {
+            color: $white;
+            font-size: 20px;
+            line-height: 28px;
+            padding-bottom: 70px;
+            @media(max-width: $screen-sm) {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}

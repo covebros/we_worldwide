@@ -30,6 +30,7 @@
 /* Components Start */
 
 @import "app/we_components/shadow-box/shadow-box";
+@import "app/we_components/copy-paragraph/copy-paragraph";
 @import "app/we_components/single-image/single-image";
 @import "app/we_components/single-subheading/single-subheading";
 @import "app/we_components/single-subheading-table/single-subheading-table";
@@ -78,10 +79,12 @@
 
 /* Pages Start */
 @import "app/pages/home/home";
-@import "app/pages/momentum/momentum";
 @import "app/pages/about/about";
+@import "app/pages/brands/brands";
+@import "app/pages/momentum/momentum";
 @import "app/pages/stories/stories";
 @import "app/pages/progress/progress";
+@import "app/pages/motion/motion";
 
 /* Pages end */
 
