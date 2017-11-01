@@ -6,9 +6,9 @@
         transform: translateZ(0);
 
         h1 {
-            font-family: 'BentonSansLight';
+            font-family: 'BentonSansLight', Arial, sans-serif;
             &:hover {
-                font-family: 'BentonSansBold';
+                font-family: 'BentonSansBold', Arial, sans-serif;
             }
         }
 
