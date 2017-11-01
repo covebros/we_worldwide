@@ -10,13 +10,12 @@
 	.block__video_tile {
         header {
         	background-color: $black;
-            iframe {
-            	top: 140px;
+        	video, iframe {
 	            position: fixed;
 	            object-fit: cover;
 	            height: 100vh;
 	            width: 100vw;
-	            border: none
+	            border: none;
 	        }
 	    }
 	}
