@@ -26,6 +26,9 @@
 @import "app/sass/_typography";
 @import "app/sass/_header";
 @import "app/sass/_footer";
+@import "app/sass/_pinchzoomer";
+
+/* General Styling End */
 
 /* Components Start */
 
@@ -46,37 +49,6 @@
 
 /* Components End */
 
-@import "app/sass/_block__brand-aproval";
-@import "app/sass/_block__brand-priciples";
-@import "app/sass/_block__sub-header";
-@import "app/sass/_block__double-block";
-@import "app/sass/_block__photo-img-grid";
-@import "app/sass/_block__single-grey";
-@import "app/sass/_block__single-block";
-@import "app/sass/_block__single-block-text";
-@import "app/sass/_block__single-block-text-two-arrows";
-@import "app/sass/block__grey-bg-image";
-@import "app/sass/_block__single-block-text-colour";
-@import "app/sass/_block__primary-colours";
-@import "app/sass/_block__secondary-colours";
-@import "app/sass/_block__additional-colours";
-@import "app/sass/_block__ellipses-block";
-@import "app/sass/_block__colour-matrix";
-@import "app/sass/block__square";
-@import "app/sass/block__terms";
-@import "app/sass/_cookie";
-@import "app/sass/_pinchzoomer";
-@import "app/components/logo/single-title-block/single-title-block";
-@import "app/components/logo/side-by-side-img/side-by-side-img";
-@import "app/components/logo/grey-block/grey-block";
-@import "app/components/logo/placement-on-backgrounds/placement-on-backgrounds";
-@import "app/components/logo/how-not-to/how-not-to";
-@import "app/components/logo/wrong-logo/wrong-logo";
-@import "app/components/language/how-to-write-simply/how-to-write-simply";
-@import "app/components/language/how-to-write-personally/how-to-write-personally";
-@import "app/components/language/how-to-write-fairly/how-to-write-fairly";
-@import "app/components/colour/accordion/accordion";
-
 /* Pages Start */
 @import "app/pages/home/home";
 @import "app/pages/about/about";
@@ -88,14 +60,6 @@
 @import "app/pages/how/how";
 
 /* Pages end */
-
-/* Components */
-
-@import "app/components/iconography/new-icons/new-icons";
-
-/* Pages */
-
-@import "app/pages/iconography/iconography";
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 

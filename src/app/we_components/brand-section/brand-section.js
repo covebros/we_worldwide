@@ -3,12 +3,12 @@ angular
   .component('brandSection', {
     templateUrl: 'app/we_components/brand-section/brand-section.html',
     transclude: {
-    	imageTitleOne: 'imageTitleOne', 
-    	imageTitleTwo: 'imageTitleTwo', 
-  		paragraph: 'brandSectionParagraph',
-  		tableIcon: 'tableIcon',
-  		tableTitleOne: 'tableTitleOne',
-  		tableTextOne: 'tableTextOne',
+      imageTitleOne: 'imageTitleOne',
+      imageTitleTwo: 'imageTitleTwo',
+      paragraph: 'brandSectionParagraph',
+      tableIcon: 'tableIcon',
+      tableTitleOne: 'tableTitleOne',
+      tableTextOne: 'tableTextOne',
       tableTitleTwo: 'tableTitleTwo',
       tableTextTwo: 'tableTextTwo'
     },

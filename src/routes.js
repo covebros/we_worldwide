@@ -69,19 +69,5 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       templateUrl: 'app/pages/team/team.html',
       controller: 'teamController',
       controllerAs: 'team'
-    })
-
-    .state('language', {
-      url: '/language',
-      templateUrl: 'app/pages/language/language.html',
-      controller: 'languageController',
-      controllerAs: 'language'
-    })
-
-    .state('terms', {
-      url: '/terms',
-      templateUrl: 'app/pages/terms/terms.html',
-      controller: 'termsController',
-      controllerAs: 'terms'
     });
 }

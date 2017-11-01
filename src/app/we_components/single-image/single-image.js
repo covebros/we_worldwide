@@ -5,7 +5,6 @@ angular
     transclude: {
       image: 'imageContainer',
       text: 'singleImageText'
-      
     },
     controller: singleImage
   });
