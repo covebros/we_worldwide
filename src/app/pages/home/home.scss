@@ -11,6 +11,7 @@
         header {
         	background-color: $black;
         	video, iframe {
+            	top: 140px;
 	            position: fixed;
 	            object-fit: cover;
 	            height: 100vh;
