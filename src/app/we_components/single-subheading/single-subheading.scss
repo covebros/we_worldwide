@@ -1,6 +1,10 @@
 .block__single-heading {
 	text-align: center;
 
+    .fade__sub-header {
+        animation-duration: 2s;
+    }
+
     h2 {
         font-size: 35px;
         line-height: 1;
