@@ -1,8 +1,9 @@
 .block__single-heading {
 	text-align: center;
+    padding-bottom: 60px;
 
     .fade__sub-header {
-        animation-duration: 2s;
+        animation-duration: 1s;
     }
 
     h2 {
@@ -41,6 +42,10 @@
     .grey-text {
         color: $grey-text;
         font-size: 20px;
+    }
+
+    .green-text {
+        color: $we-green;
     }
 
     .bold-text {

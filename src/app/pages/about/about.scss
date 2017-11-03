@@ -7,6 +7,33 @@
 			}
 		}
 	}
+    .parallax-bgimg-1 {
+        background-image: url(assets/images/we_worldwide/parallax/about.jpg);
+        min-height: 560px;
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        @media(max-width: $screen-sm) {
+            min-height: 400px;
+        }
+    }
+
+    .block__copy-table {
+        text-align: center;
+        margin-top: 40px;
+
+        h3 {
+            font-family: 'BentonSansLight', Arial, sans-serif;
+            padding: 20px 0;
+        }
+
+        .border-table {
+            padding: 0 15px 20px 15px;
+            border: 1px solid #787878;
+        }
+    }
 }
 
 .round-button {

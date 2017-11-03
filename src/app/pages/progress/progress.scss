@@ -1,14 +1,13 @@
 .block__progress-page {
-    .bgimg-1, .bgimg-2 {
+    .parallax-bgimg-1, .parallax-bgimg-2 {
 	    position: relative;
-	    opacity: 0.65;
 	    background-attachment: fixed;
 	    background-position: center;
 	    background-repeat: no-repeat;
 	    background-size: cover;
 	}
 
-	.bgimg-1 {
+	.parallax-bgimg-1 {
 	    background-image: url(assets/images/we_worldwide/parallax/progress-1.jpg);
 		min-height: 600px;
 		@media(max-width: $screen-sm) {
@@ -16,8 +15,8 @@
 		}
 	}
 
-	.bgimg-2 {
-		background-image: url(assets/images/we_worldwide/parallax/progress-2-smaller.jpg);
+	.parallax-bgimg-2 {
+		background-image: url(assets/images/we_worldwide/parallax/progress-2.jpg);
 		min-height: 600px;
 		@media(max-width: $screen-sm) {
 			min-height: 400px;
@@ -25,7 +24,6 @@
 	}
 
 	.block__single-heading {
-		padding-bottom: 50px;
 		@media(max-width: $screen-sm) {
 			padding-bottom: 0;
 		}

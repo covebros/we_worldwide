@@ -1,6 +1,6 @@
 .block__home-page {
-	text-align: center;
 	.main-nav {
+		position: fixed;
 	    width: 100%;
 	    height: 144px;
 	    z-index: 1;
@@ -10,14 +10,15 @@
         header {
         	background-color: $black;
         	video, iframe {
-        		width: 100%;
-        		height: 100%;
-	            position: relative;
+        		position: fixed;
+				object-fit: cover;
+				height: 100vh;
+				width: 100vw;
 	        }
 	    }
 	    .block__video-heading {
 	    	text-align: center;
-	    	position: absolute;
+	    	position: fixed;
 	    	top: 170px;
 	    	background-color: rgba(12, 12, 12, 0.9);
 	    	width: 100%;
@@ -33,6 +34,9 @@
 	    }
 	}
 	.block__image_tiles {
-	    position: relative;
+	    position: absolute;
+		top: 100vh;
+		height: 100px;
+		  width: 100%;
 	}
 }
