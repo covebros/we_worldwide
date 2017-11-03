@@ -1,6 +1,5 @@
 .block__progress-page {
-
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    .bgimg-1, .bgimg-2 {
 	    position: relative;
 	    opacity: 0.65;
 	    background-attachment: fixed;
@@ -12,77 +11,41 @@
 	.bgimg-1 {
 	    background-image: url(assets/images/we_worldwide/parallax/progress-1.jpg);
 		min-height: 600px;
+		@media(max-width: $screen-sm) {
+			min-height: 400px;
+		}
 	}
 
 	.bgimg-2 {
 		background-image: url(assets/images/we_worldwide/parallax/progress-2-smaller.jpg);
 		min-height: 600px;
+		@media(max-width: $screen-sm) {
+			min-height: 400px;
+		}
 	}
 
-	.round-button {
-	    width: 30px;
-	    height: 30px;
-	    position: absolute;
-	    left: 50%;
-	    animation-name: fadein;
-	    animation-duration: 1s;
-	    margin-left: -15px;
-	    animation-iteration-count: 1;
-	    animation-fill-mode: forwards;
-
-	    .round-button-circle {
-	        width: 100%;
-	        height: 0;
-	        padding-bottom: 100%;
-	        border-radius: 50%;
-	        overflow: hidden;
-	        background: white;
-	    }
-
-	    &:hover {
-
-	      .round-button-circle {
-	        background: $we-green;
-	      }
-	    }
-
-	    a {
-	        display: block;
-	        float: left;
-	        width: 100%;
-	        padding-top: 50%;
-	        padding-bottom: 50%;
-	        line-height: 1.200;
-	        margin-top: -15px;
-	        text-align: center;
-	        color: #000000;
-	        font-size: 24px;
-	        font-weight: bold;
-	        text-decoration: none;
-	        background: none;
-	        border-radius: 0;
-	        border: none;
-	        position: initial;
-	        text-shadow: none;
-
-	        &:after {
-	            content: "";
-	            display: block;
-	            position: absolute;
-	            top: -4px;
-	            bottom: -4px;
-	            left: -4px;
-	            right: -4px;
-	            border-radius: 50%;
-	            border: 2px solid white;
-	            height: 38px;
-	            width: 38px;
-	        }
-
-	        &:hover {
-	          color: white;
-	        }
-	    }
+	.block__single-heading {
+		padding-bottom: 50px;
+		@media(max-width: $screen-sm) {
+			padding-bottom: 0;
+		}
 	}
+
+	.copy-paragraph-one {
+		text-align: center;
+		padding: 50px 0;
+		@media(max-width: $screen-sm) {
+			padding: 30px 15px;
+		}
+	}
+
+	.copy-paragraph-two {
+		text-align: center;
+		padding: 120px 0;
+		@media(max-width: $screen-sm) {
+			padding: 30px 15px 100px 15px;
+		}
+	}
+
+
 }
-

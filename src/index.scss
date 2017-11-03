@@ -4,9 +4,7 @@
  */
 
 .container {
-    @media (min-width: 1440px) {
-        width: 1440px !important;
-    }
+	max-width: 800px;
 }
 
 .container-fluid {

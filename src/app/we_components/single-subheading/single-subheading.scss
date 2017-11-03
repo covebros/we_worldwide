@@ -25,6 +25,9 @@
         margin-top: 115px;
         padding: 0 30px;
         @media (max-width: $screen-md) {
+            margin-top: 50px;
+        }
+        @media (max-width: $screen-sm) {
             margin-top: 30px;
         }
     }
