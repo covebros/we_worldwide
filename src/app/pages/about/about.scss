@@ -7,6 +7,18 @@
 			}
 		}
 	}
+    .animated-tables {
+        background-image: url(assets/images/we_worldwide/about-bg-lines.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        margin-bottom: 100px; 
+        @media (max-width: $screen-md) {
+            background-image: none;
+            margin-bottom: 0; 
+        }
+    }
+
     .parallax-bgimg-1 {
         background-image: url(assets/images/we_worldwide/parallax/about.jpg);
         min-height: 560px;
@@ -22,7 +34,6 @@
 
     .block__copy-table {
         text-align: center;
-        margin-top: 40px;
 
         h3 {
             font-family: 'BentonSansLight', Arial, sans-serif;
@@ -32,6 +43,13 @@
         .border-table {
             padding: 0 15px 20px 15px;
             border: 1px solid #787878;
+            background-color: $black;
+            position: relative;
+            top: 80px;
+            margin-top: 30px;
+            @media (max-width: $screen-md) {
+                top: 0;
+            }
         }
     }
 }
