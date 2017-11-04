@@ -5,6 +5,10 @@
     width: 100%;
     margin: 0 auto;
 
+    .block__single-heading {
+        padding-bottom: 0;
+    }
+
     .subheading-table-reset {
     	.heading {
     		margin: 0;
@@ -23,6 +27,71 @@
         background-size: cover;
         @media(max-width: $screen-sm) {
             min-height: 300px;
+        }
+    }
+    .block__two-columns-motion {
+        text-align: center;
+        padding: 130px 0 100px 0;
+
+        @media(max-width: $screen-md) {
+            padding-top: 50px;
+        }
+
+        @media(max-width: $screen-sm) {
+            padding-bottom: 60px;
+        }
+
+
+        h3 {
+            margin-bottom: 30px;
+            font-family: 'BentonSansLight', Arial, sans-serif;
+        }
+
+        p {
+            padding: 0 0 20px 0;
+            @media(max-width: $screen-sm) {
+                padding: 0 15px;
+            }
+        }
+
+        img {
+            width: 100%;
+            @media(max-width: $screen-md) {
+                padding-top: 20px;
+            }
+        }
+
+        .motion-matrix {
+            img {
+                width: 100%;
+                max-width: 836px;
+            }
+        }
+
+        .text-copy {
+            p {
+                padding: 10px 20px 20px 20px;
+                    @media(max-width: $screen-sm) {
+                    padding: 20px 0;
+                }
+            }
+        }
+
+        .download-button {
+            img {
+                width: 100%;
+                max-width: 338px;
+                @media(max-width: $screen-md) {
+                    padding-bottom: 50px;
+                }
+            }
+        }
+
+        .equal {
+            @media(min-width: $screen-sm) {
+                display: flex;
+                flex-wrap: wrap;
+            }
         }
     }
 }
