@@ -1,38 +1,22 @@
 .block__shadow_box {
-	background-color: $black;
 	text-align: center;
-	padding-bottom: 40px;
+	padding-bottom: 50px;
+	@media(max-width: $screen-sm) {
+		padding: 0 15px 30px 15px;
+	}
 
 	.box {
 		background-color: $dark-grey;
-		padding: 25px 15px;
-		opacity: 0.8;
-	}
-
-	.box-content-title {
-		position: relative;
-		top: 0;
-		z-index: 10;
-	}
-
-	.box-content-steps {
-		position: relative;
-		top: 0;
-		z-index: 20;
+		padding: 15px;
 	}
 
 	h3 {
-		font-size: 20px;
-		color: $we-green;
-		margin-bottom: 20px;
+		font-size: 16px;
+		font-family: 'BentonSansMedium', Arial, sans-serif;
+		color: $white;
 	}
 
-	ul {
-		list-style: none;
-		li {
-		color: $white;
-		font-size: 20px;
-		line-height: 1.5;
-		}	
+	p {
+		font-size: 16px;
 	}
 }
