@@ -1,14 +1,14 @@
 .block__how-page {
 	    .parallax-bgimg-1 {
         background-image: url(assets/images/we_worldwide/parallax/making.jpg);
-        min-height: 560px;
+        min-height: 500px;
         position: relative;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         @media(max-width: $screen-sm) {
-            min-height: 400px;
+            min-height: 300px;
         }
     }
 }

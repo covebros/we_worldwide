@@ -9,17 +9,17 @@
 
 	.parallax-bgimg-1 {
 	    background-image: url(assets/images/we_worldwide/parallax/progress-1.jpg);
-		min-height: 600px;
+		min-height: 360px;
 		@media(max-width: $screen-sm) {
-			min-height: 400px;
+			min-height: 30px;
 		}
 	}
 
 	.parallax-bgimg-2 {
 		background-image: url(assets/images/we_worldwide/parallax/progress-2.jpg);
-		min-height: 600px;
+		min-height: 360px;
 		@media(max-width: $screen-sm) {
-			min-height: 400px;
+			min-height: 300px;
 		}
 	}
 
