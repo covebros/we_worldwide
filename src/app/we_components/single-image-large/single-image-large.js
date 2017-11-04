@@ -3,7 +3,7 @@ angular
   .component('singleImageLarge', {
     templateUrl: 'app/we_components/single-image-large/single-image-large.html',
     transclude: {
-      image: 'singleLargeImage'
+      singleImageContainer: 'singleImageContainer'
     },
     controller: singleImageLarge
   });

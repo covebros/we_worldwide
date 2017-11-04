@@ -1,0 +1,13 @@
+.block__single-image-medium {
+	text-align: center;
+	margin-bottom: 50px;
+
+	img {
+		width: 100%;
+		margin: 70px 0 0 0;
+		padding: 0 15px;
+		@media(max-width: $screen-sm) {
+			margin-top: 50px; 
+		}
+	}
+}
