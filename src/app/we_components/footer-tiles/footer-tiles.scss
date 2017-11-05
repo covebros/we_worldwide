@@ -23,13 +23,22 @@
 		line-height: 1.8;
 	}
 
-	.black-box {
+	.black-box, .green-box {
 		padding: 180px 30px 180px 30px;
+		@media(max-width: $screen-md) {
+			padding: 50px 30px 50px 30px;
+		}
+		@media(max-width: $screen-sm) {
+			padding: 30px;
+		}
+	}
+
+
+	.black-box {
 		background-color: $black;
 	}
 
 	.green-box {
-		padding: 180px 30px 180px 30px;
 		background-color: #80c342;
 
 		p {
