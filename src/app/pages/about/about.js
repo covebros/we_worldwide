@@ -10,7 +10,7 @@ angular
   		$scope.popup = function () {
   			console.log('button clicked');
   			angular.element(".open-popup").fullScreenPopup({
-				bgColor: "green",
+				bgColor: "#5a5a5a",
 				inlineStyles: true,
 				animationSpeed: 200
   		});
