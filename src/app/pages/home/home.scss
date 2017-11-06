@@ -13,8 +13,10 @@
         	video, iframe {
         		position: fixed;
 				object-fit: cover;
-				height: 100vh;
+				top: 250px;
+				height: calc(100vh - 250px);
 				width: 100vw;
+				border: none;
 	        }
 	    }
 	    .block__video-heading {
