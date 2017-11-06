@@ -57,11 +57,11 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       controllerAs: 'motion'
     })
 
-    .state('how', {
-      url: '/how',
-      templateUrl: 'app/pages/how/how.html',
-      controller: 'howController',
-      controllerAs: 'how'
+    .state('making', {
+      url: '/making',
+      templateUrl: 'app/pages/making/making.html',
+      controller: 'makingController',
+      controllerAs: 'making'
     })
 
     .state('why', {
