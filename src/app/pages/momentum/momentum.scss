@@ -63,4 +63,83 @@
 			min-height: 300px;
 		}
 	}
+	.momentum-table {
+		padding: 50px 15px;
+
+		@media(max-width: $screen-sm) {
+			padding: 30px 15px 10px 15px;
+		}
+
+		th {
+			color: $we-green;
+			font-family: 'BentonSansBold', Arial, sans-serif;
+			font-size: 22px;
+			text-transform: uppercase;
+			padding-bottom: 30px;
+			border: none;
+		}
+
+		td {
+			color: #5a5a5a;
+			font-family: 'BentonSansLight', Arial, sans-serif;
+			font-size: 17px;
+			padding: 30px 10px;
+			border: none;
+			max-width: 195px;
+
+			&:first-child {
+				padding: 30px 10px 30px 0;
+			}
+		}
+
+		.bold-text {
+			color: $white;
+			font-family: 'BentonSansBold', Arial, sans-serif;
+			font-size: 22px;
+			text-transform: uppercase;
+			min-width: 195px;
+		}
+
+		.bold-grey-text {
+			font-family: 'BentonSansBold', Arial, sans-serif;
+			font-size: 15px;
+			text-transform: uppercase;
+			color: #808080;
+		}
+
+		.last-table-row {
+			td {
+				font-style: italic;
+			}
+			.bold-text {
+				font-style: normal;
+			}
+			.st-key {
+				font-style: normal;
+			}
+		}
+
+		.st-head-row {
+			color: $white;
+			padding-bottom: 0;
+		}
+
+		.st-key {
+			color: $we-green;
+			width: 10%;
+
+			&:first-child {
+				padding: 15px 10px 15px 0;
+			}
+		}
+
+		.st-val  {
+			padding: 15px 10px;
+		}
+		.st-head-row.st-head-row-main {
+			display: none;
+		}
+	}
 }
+
+
