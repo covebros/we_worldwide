@@ -53,6 +53,11 @@
     .making-table {
         padding: 50px 15px;
 
+        .fade-table-duration {
+            animation-duration: 1s;
+            opacity: 1;
+        }
+
         @media(max-width: $screen-sm) {
             padding: 0 15px 10px 15px;
         }

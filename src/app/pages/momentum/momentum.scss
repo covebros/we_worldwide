@@ -5,6 +5,10 @@
     width: 100%;
     margin: 0 auto;
 
+    .fade-table-duration {
+    	animation-duration: 2s;
+    }
+
 	.momentum-sub-header-reset {
 		.block__single-heading {
 			.subheading {
