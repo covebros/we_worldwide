@@ -26,10 +26,10 @@
 	.black-box, .green-box {
 		padding: 180px 30px 180px 30px;
 		@media(max-width: $screen-md) {
-			padding: 50px 30px 50px 30px;
+			padding: 50px 15px 50px 15px;
 		}
 		@media(max-width: $screen-sm) {
-			padding: 30px;
+			padding: 30px 15px;
 		}
 	}
 

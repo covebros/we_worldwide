@@ -32,12 +32,6 @@
                 margin-bottom: 20px; 
             }
         }
-
-        p {
-            @media(max-width: $screen-sm) {
-                padding: 0 15px;
-            }
-        }
 	}
 
 	.parallax-bgimg-1, .parallax-bgimg-2 {
