@@ -41,6 +41,7 @@
     "karma-phantomjs-launcher": "^1.0.0",
     "karma-phantomjs-shim": "^1.1.2",
     "main-bower-files": "^2.9.0",
+    "object-fit-videos": "^1.0.3",
     "phantomjs-prebuilt": "^2.1.6",
     "uglify-save-license": "^0.4.1",
     "wiredep": "^2.2.2"
@@ -68,6 +69,7 @@
     ]
   },
   "dependencies": {
+    "object-fit-videos": "^1.0.3",
     "wiredep": "^2.2.2"
   }
 }

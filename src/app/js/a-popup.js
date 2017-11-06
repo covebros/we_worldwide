@@ -7,6 +7,10 @@
 			animationSpeed: 200
   		});
   	});
+
+  	angular.element(document).ready(function () {
+    	objectFitVideos();
+    });
 })();
 
 
