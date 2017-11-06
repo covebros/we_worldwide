@@ -199,7 +199,7 @@
 
 .popup-box {
     text-align: center;
-    padding: 0 15px;
+    padding: 0 25px;
 
     h3 {
         font-family: 'BentonSansBook', Arial, sans-serif;
@@ -222,6 +222,50 @@
     .green-text {
         font-family: 'BentonSansBold', Arial, sans-serif;
         color: $we-green;
+    }
+}
+
+.fsp-wrapper {
+    .fsp-close {
+        font-family: 'BentonSansBlack', Arial, sans-serif;
+        margin: 0;
+        text-align: center;
+        color: $we-green;
+        font-size: 40px;
+        text-decoration: none;
+        background: none;
+        border: none;
+        position: initial;
+        text-shadow: none;
+        top: 0;
+        right: 0;
+
+        &:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 5px;
+            bottom: -4px;
+            left: -12px;
+            right: -4px;
+            border-radius: 50%;
+            border: 2px solid white;
+            height: 50px;
+            width: 50px;
+
+            @media(max-width: $screen-sm) {
+                height: 45px;
+                width: 45px;
+                top: 8px;
+                bottom: -2px;
+                left: -9px;
+                right: -2px;
+            }
+        }
+
+        &:hover {
+          color: white;
+        }
     }
 }
 
