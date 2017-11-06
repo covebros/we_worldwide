@@ -17,7 +17,7 @@
 
     .copy-paragraph-one {
         text-align: center;
-        padding: 40px 15px 0 15px;
+        padding-top: 40px;
         @media(max-width: $screen-sm) {
             padding-top: 30px;
         }
@@ -26,7 +26,7 @@
     .block__shadow-box-large {
         text-align: center;
         @media(max-width: $screen-sm) {
-            padding: 0 15px 30px 15px;
+            padding-bottom: 30px;
         }
 
         .box {
@@ -50,4 +50,223 @@
             color: $white;
         }
     }
+    .making-table {
+        padding: 50px 15px;
+
+        @media(max-width: $screen-sm) {
+            padding: 0 15px 10px 15px;
+        }
+
+        tr {
+            .st-key, .st-val {
+                font-size: 20px;
+            }
+        }
+
+        th {
+            color: $we-green;
+            font-family: 'BentonSansBold', Arial, sans-serif;
+            font-size: 22px;
+            text-transform: uppercase;
+            padding-bottom: 30px;
+            border: none;
+        }
+
+        td {
+            color: #5a5a5a;
+            font-family: 'BentonSansLight', Arial, sans-serif;
+            font-size: 17px;
+            padding: 10px;
+            border: none;
+            max-width: 195px;
+
+            &:first-child {
+                padding: 10px 10px 10px 0;
+            }
+        }
+
+        .first-row {
+            td {
+                padding-bottom: 30px;
+            }
+        }
+
+        .bold-text {
+            color: $white;
+            font-family: 'BentonSansBold', Arial, sans-serif;
+            font-size: 22px;
+            text-transform: uppercase;
+            min-width: 195px;
+        }
+
+        .bold-black-text {
+            font-family: 'BentonSansBold', Arial, sans-serif;
+            font-size: 15px;
+            text-transform: uppercase;
+            color: $black;
+        }
+
+        .last-table-row {
+            td {
+                font-style: italic;
+            }
+            .bold-text {
+                font-style: normal;
+            }
+            .st-key {
+                font-style: normal;
+            }
+        }
+
+        .st-head-row {
+            color: $white;
+            padding-bottom: 0;
+        }
+
+        .st-key {
+            color: $we-green;
+            width: 10%;
+
+            &:first-child {
+                padding: 15px 10px 15px 0;
+            }
+        }
+
+        .st-val  {
+            padding: 15px 10px;
+        }
+        .st-head-row.st-head-row-main {
+            display: none;
+        }
+
+        .row-1, .row-1-header {
+            td {
+                background-color: #dff0d0;
+            }
+        }
+
+        .row-1-cells {
+            td {
+                color: #dff0d0;
+            }
+        }
+
+        .first-row {
+            .st-head-row {
+                @media(max-width: 800px) {
+                    display: table-cell;
+                    width: 100%;
+                }
+            }
+        }
+
+        .row-1,
+        .row-2,
+        .row-3,
+        .row-4,
+        .row-5,
+        .row-6 {
+            @media(max-width: 800px) {
+                display: none;
+            }
+        }
+
+        tr {
+            .st-head-row {
+                @media(max-width: 800px) {
+                    display: none;
+                }
+            }
+        }
+
+        .row-2, .row-2-header {
+            td {
+                background-color: #bfe1a0;
+            }
+        }
+
+        .row-2-cells {
+            td {
+                color: #bfe1a0;
+            }
+        }
+
+        .row-3, .row-3-header {
+            td {
+                background-color: #9fd271;
+            }
+        }
+
+        .row-3-cells {
+            td {
+                color: #9fd271;
+            }
+        }
+
+        .row-4, .row-4-header {
+            td {
+                background-color: #6fa03c;
+            }
+        }
+
+        .row-4-cells {
+            td {
+                color: #6fa03c;
+            }
+        }
+
+        .row-5, .row-5-header {
+            td {
+                background-color: #4f6b2b;
+            }
+        }
+
+        .row-5-cells {
+            td {
+                color: #4f6b2b;
+            }
+        }
+
+        .row-6, .row-6-header {
+            td {
+                background-color: #808080;
+            }
+        }
+
+        .row-6-cells {
+            td {
+                color: #808080;
+            }
+        }
+
+        .row-cells {
+            td {
+                padding: 15px 10px 30px 15px;
+            }
+        }
+
+        .row-1-header,
+        .row-2-header,
+        .row-3-header,
+        .row-4-header,
+        .row-5-header,
+        .row-6-header {
+            .st-key {
+                font-size: 0;
+            }
+        }
+
+        tr {
+            .row-space {
+                padding: 0;
+            }
+        }
+
+        td.background-none {
+            background-color: $black;
+        }
+    }
 }
+
+
+

@@ -63,12 +63,25 @@
 			min-height: 300px;
 		}
 	}
+	
 	.momentum-table {
 		padding: 50px 15px;
 
 		@media(max-width: $screen-sm) {
 			padding: 30px 15px 10px 15px;
 		}
+
+		tr {
+            .st-key, .st-val {
+                font-size: 20px;
+            }
+
+            .st-val {
+            	.bold-grey-text {
+            		font-size: 18px;
+            	}
+            }
+        }
 
 		th {
 			color: $we-green;

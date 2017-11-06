@@ -7,5 +7,8 @@
 
   /** @ngInject */
   function makingController($scope, $timeout) {
+  	angular.element(document).ready(function () {
+    	angular.element('table').stacktable();
+    });
   }
 })();
