@@ -22,6 +22,15 @@
 
   <body ng-app="app">
     <ui-view class="main"></ui-view>
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55363984-9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-55363984-9');
+    </script>
   </body>
   <!-- build:js({.tmp,src}) scripts/vendor.js -->
   <!-- bower:js -->
