@@ -63,18 +63,4 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
       controller: 'makingController',
       controllerAs: 'making'
     })
-
-    .state('why', {
-      url: '/why',
-      templateUrl: 'app/pages/why/why.html',
-      controller: 'whyController',
-      controllerAs: 'why'
-    })
-
-    .state('team', {
-      url: '/team',
-      templateUrl: 'app/pages/team/team.html',
-      controller: 'teamController',
-      controllerAs: 'team'
-    });
 }
