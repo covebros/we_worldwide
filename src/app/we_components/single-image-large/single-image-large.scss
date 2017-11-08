@@ -9,4 +9,21 @@
 			margin-top: 50px; 
 		}
 	}
+
+	.desktop-visible {
+		display: block;
+		@media(max-width: $screen-sm) {
+			display: none;
+		}
+	}
+
+	.mobile-visible {
+		width: 100%;
+		max-width: 367px;
+		margin: 0 auto;
+		display: none;
+		@media(max-width: $screen-sm) {
+			display: block;
+		} 
+	}
 }

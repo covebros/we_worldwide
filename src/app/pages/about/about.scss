@@ -136,6 +136,10 @@
     }
 }
 
+.animated.fade-in-animation {
+    animation-duration: 0.5s;
+}
+
 .close-round-button {
     width: 30px;
     height: 30px;
@@ -278,14 +282,10 @@
 
 .popup-box {
     text-align: center;
-    padding: 250px 15px;
-
-    @media(max-width: $screen-sm) {
-        padding: 150px 15px;
-    }
+    padding: 100px 15px;
 
     @media(max-width: $screen-xs) {
-        padding: 100px 15px;
+        padding: 30px 15px;
     }
 
     

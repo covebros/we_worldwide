@@ -15,6 +15,12 @@ angular
         var el = element[0];
         var elementOpacity = angular.element(el).css('opacity', '0');
 
+        angular.element(document).ready(function () {
+          if (angular.element(window).width() < 1024) {
+              var elementOpacity = angular.element(el).css('opacity', '1');
+            }
+        });
+
         var animation = function () {
           var elementPosition = angular.element(el).offset().top;
           var windowInnerHeight = angular.element(window).innerHeight();

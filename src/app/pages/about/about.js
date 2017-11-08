@@ -6,5 +6,6 @@ angular
 .controller('aboutController', aboutController);
   	/** @ngInject */
   	function aboutController($scope) {
+  		
   }
 })();
