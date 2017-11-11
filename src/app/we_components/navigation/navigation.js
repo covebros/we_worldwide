@@ -20,11 +20,6 @@
   function menuNavigation($scope, $timeout, $window, $state) {
     $scope.IsNavOpen = false;
 
-    var santanderCookie = Cookies.get('Santander Brand Guidelines');
-    if (!angular.isUndefined(santanderCookie)) {
-      angular.element('.footer').css('margin', '0');
-    }
-
     $scope.mobileMenu = function () {
       angular.element('.mobile-menu-button').toggleClass('menu-opened');
       angular.element('#c-menu--slide-right').toggleClass('is-active');

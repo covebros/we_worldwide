@@ -261,7 +261,7 @@ nav {
         border: 0;
         height: 2px;
         width: 30px;
-        background: $white;
+        background: $black;
         -webkit-transform: rotate(45deg);
         -moz-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
@@ -270,7 +270,7 @@ nav {
     }
     .mobile-menu-button.menu-opened:before {
         top: 25px;
-        background: $white;
+        background: $black;
         width: 30px;
         height: 2px;
         -webkit-transform: rotate(-45deg);
@@ -325,326 +325,6 @@ nav {
     }
 }
 
-@keyframes topLeftBorderAnimation {
-    0% {
-        top: -45px;
-        left: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        top: 0;
-        left: 15px;
-        opacity: 1
-    }
-}
-
-@-moz-keyframes topLeftBorderAnimation {
-    0% {
-        top: -45px;
-        left: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        top: 0;
-        left: 15px;
-        opacity: 1
-    }
-}
-
-@-webkit-keyframes topLeftBorderAnimation {
-    0% {
-        top: -45px;
-        left: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        top: 0;
-        left: 15px;
-        opacity: 1
-    }
-}
-
-@-o-keyframes topLeftBorderAnimation {
-    0% {
-        top: -45px;
-        left: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        top: 0;
-        left: 15px;
-        opacity: 1
-    }
-}
-
-@-ms-keyframes topLeftBorderAnimation {
-    0% {
-        top: -45px;
-        left: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        top: 0;
-        left: 15px;
-        opacity: 1
-    }
-}
-
-@keyframes bottomLeftBorderAnimation {
-    0% {
-        bottom: -45px;
-        left: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        bottom: 0;
-        left: 15px;
-        opacity: 1
-    }
-}
-
-@-moz-keyframes bottomLeftBorderAnimation {
-    0% {
-        bottom: -45px;
-        left: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        bottom: 0;
-        left: 15px;
-        opacity: 1
-    }
-}
-
-@-webkit-keyframes bottomLeftBorderAnimation {
-    0% {
-        bottom: -45px;
-        left: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        bottom: 0;
-        left: 15px;
-        opacity: 1
-    }
-}
-
-@-o-keyframes bottomLeftBorderAnimation {
-    0% {
-        bottom: -45px;
-        left: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        bottom: 0;
-        left: 15px;
-        opacity: 1
-    }
-}
-
-@-ms-keyframes bottomLeftBorderAnimation {
-    0% {
-        bottom: -45px;
-        left: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        bottom: 0;
-        left: 15px;
-        opacity: 1
-    }
-}
-
-@keyframes topRightBorderAnimation {
-    0% {
-        top: -45px;
-        right: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        top: 0;
-        right: 15px;
-        opacity: 1
-    }
-}
-
-@-moz-keyframes topRightBorderAnimation {
-    0% {
-        top: -45px;
-        right: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        top: 0;
-        right: 15px;
-        opacity: 1
-    }
-}
-
-@-webkit-keyframes topRightBorderAnimation {
-    0% {
-        top: -45px;
-        right: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        top: 0;
-        right: 15px;
-        opacity: 1
-    }
-}
-
-@-o-keyframes topRightBorderAnimation {
-    0% {
-        top: -45px;
-        right: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        top: 0;
-        right: 15px;
-        opacity: 1
-    }
-}
-
-@-ms-keyframes topRightBorderAnimation {
-    0% {
-        top: -45px;
-        right: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        top: 0;
-        right: 15px;
-        opacity: 1
-    }
-}
-
-@keyframes bottomRightBorderAnimation {
-    0% {
-        bottom: -45px;
-        right: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        bottom: 0;
-        right: 15px;
-        opacity: 1
-    }
-}
-
-@-moz-keyframes bottomRightBorderAnimation {
-    0% {
-        bottom: -45px;
-        right: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        bottom: 0;
-        right: 15px;
-        opacity: 1
-    }
-}
-
-@-webkit-keyframes bottomRightBorderAnimation {
-    0% {
-        bottom: -45px;
-        right: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        bottom: 0;
-        right: 15px;
-        opacity: 1
-    }
-}
-
-@-o-keyframes bottomRightBorderAnimation {
-    0% {
-        bottom: -45px;
-        right: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        bottom: 0;
-        right: 15px;
-        opacity: 1
-    }
-}
-
-@-ms-keyframes bottomRightBorderAnimation {
-    0% {
-        bottom: -45px;
-        right: -45px;
-        opacity: 0
-    }
-    40% {
-        opacity: 1
-    }
-    to {
-        bottom: 0;
-        right: 15px;
-        opacity: 1
-    }
-}
-
 /* Mobile Menu Styling */
 
 /* Part 1 Start */
@@ -676,7 +356,7 @@ nav {
 
 .c-menu__items {
   list-style: none;
-  margin: 85px 0 0 0;
+  margin: 50px 0 0 0;
   padding: 0;
   img {
     padding-right: 30px;
@@ -688,7 +368,7 @@ nav {
  */
 .c-menu__close {
   color: #fff;
-  background-color: rgba(12,12,12,0.9);
+  background-color: rgba(255,255,255, 0.05);
   font-size: 14px;
   border: none;
   box-shadow: none;
@@ -697,6 +377,10 @@ nav {
   -moz-appearance: none;
   appearance: none;
   cursor: pointer;
+
+  &:hover {
+    color: $we-green;
+  }
 }
 
 /**
