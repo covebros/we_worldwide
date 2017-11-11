@@ -33,6 +33,10 @@
 	    		.green-text {
 	    			color: $we-green;
 	    		}
+
+	    		@media(max-width: $screen-sm) {
+	    			font-size: 18px; 
+	    		}
 	    	}
 	    }
 	}

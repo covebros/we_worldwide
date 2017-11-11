@@ -90,6 +90,10 @@ hr {
     }
 }
 
+.no-overflow {
+    overflow-x: hidden;
+}
+
 .main {
     * {
         box-sizing: border-box;
