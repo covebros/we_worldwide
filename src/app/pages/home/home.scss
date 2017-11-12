@@ -13,8 +13,7 @@
         	video, iframe {
         		position: fixed;
 				object-fit: cover;
-				top: 285px;
-				height: calc(100vh - 285px);
+				height: 100vh;
 				width: 100vw;
 				border: none;
 	        }
